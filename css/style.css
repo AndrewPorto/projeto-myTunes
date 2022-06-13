@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans";
+    list-style-type: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+}
+
+img {
+    width: 100%
+}
+
+.section {
+    padding: 2rem 0;
+    
+  }
+
+
+ul li a {
+    text-decoration: none;
+}
+
+.first-list {
+    display: flex;
+    background-color: #333333;
+    width: 100%;
+    position: fixed;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    text-indent: 25px;
+    height: 30px;
+    margin-top: 10px;
+    
+}
+
+nav ul li a {
+    color: #FFF;  
+   
+}
+
+nav ul li a:hover {
+    background-color: #444;
+    padding: 15px;
+}
+
+body .primeira {
+    background-image: url(../img/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16pt;
+    
+}
+
+body .primeira h1{
+    margin-top: 300px;
+}
+
+body .primeira h2 {
+    margin-top: 40px;
+}
+
+body .primeira p {
+    margin-top: 25px;
+    padding: 0 100px 0 100px;
+    
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    margin-top: 50px;
+}
+
+.music h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.music h2 {
+    margin-bottom: 32px;
+}
+
+.music p {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20.8px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.music button {
+    width: 180px;
+    margin: 0 auto;
+    background-color: #B90415;
+    border: none;
+    height: 50px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 11pt;
+}
+
+.music button:hover {
+    background-color: #c41526;
+}
+
+.music .texto-claro {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.music img {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.movie {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.movie h2 {
+    margin: 50px 0 30px 0;
+    font-size: 32px;
+}
+
+.movie p {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    font-size: 20.8px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.movie button {
+    background-color: #103063;
+    color: #FFF;
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+.movie img {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.bg {
+    background: url(../img/section-bg.jpeg) no-repeat bottom/cover;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 60vh; 
+    color: #FFF;
+    text-align: center;
+}
+
+.bg h2 {
+    font-size: 32px;
+    margin-top: 200px;
+}
+
+.bg p {
+    font-size: 20.8px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 35px;
+    line-height: 33px;
+}
+
+.gift-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFF;
+    height: 400px;
+}
+
+.gift-cards .card {
+    width: 31%;
+    margin-top: 35px;
+    
+}
+
+.conteudo {
+    width: 600px;
+    margin: 60px 0 0 30px;
+}
+
+.conteudo h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.conteudo p {
+    line-height: 25px;
+}
+
+.p-redeem {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.589);
+    padding-bottom: 15px;
+}
+
+.footer-colunas {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    text-align: left;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-colunas ul .linha-sup {
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 19.2px;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.589);
+    padding-bottom: 15px;
+    
+    
+}
+
+.footer-colunas li {
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.footer-colunas a {
+    color: #FFF;
+
+}
+
+.footer-final {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+
+footer .footer-final p {
+    padding-top: 20px;
+}

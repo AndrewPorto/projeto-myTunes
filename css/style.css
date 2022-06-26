@@ -249,9 +249,7 @@ body .primeira p {
     margin-bottom: 20px;
     font-size: 19.2px;
     border-bottom: 1px solid rgba(102, 102, 102, 0.589);
-    padding-bottom: 15px;
-    
-    
+    padding-bottom: 15px;  
 }
 
 .footer-colunas li {
@@ -262,7 +260,6 @@ body .primeira p {
 
 .footer-colunas a {
     color: #FFF;
-
 }
 
 .footer-final {
